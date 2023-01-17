@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
+/* nav logo*/
 nav img {
     padding: 10px;
 }
-
+/* nav titolo  */
 nav h1{
     display: inline-block;
 
@@ -17,4 +18,51 @@ nav h1{
     vertical-align:top;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
+}
+
+/* section new item style  */
+#new-item{
+    background-color: white;
+    border-radius: 5px;
+    width: 80vw;
+    margin: 10vh 50vw 1vh;
+    transform: translate(-50%);
+}
+#button-container{
+    margin-left:20px;
+    padding: 10px;
+}
+
+/* section 1 button setyle */
+
+#new-task {
+    border: none;
+    border-radius: 8px;
+    background-color: #47adf1;
+    padding: 6px 8px;
+    color:white;
+
+}
+
+#new-section {
+    color: rgba(0, 0, 0, 0.2);
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 6px 8px;
+}
+
+
+
+
+
+
+/* background */
+body{
+    background-color: #f6f8f9;
+}
+
+nav{
+    background-color: white;
 }
