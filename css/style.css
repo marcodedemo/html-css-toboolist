@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 /* nav logo*/
@@ -23,9 +24,9 @@ nav h1{
 /* section new item style  */
 #new-item{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0 ;
     width: 80vw;
-    margin: 10vh 50vw 1vh;
+    margin: 10vh 50vw 5px;
     transform: translate(-50%);
 }
 #button-container{
@@ -53,10 +54,107 @@ nav h1{
     padding: 6px 8px;
 }
 
+/* section lists style */
+#lists{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    width: 80vw;
+    margin: 0 50vw;
+    transform: translate(-50%);
+}
+
+#lists-container{
+    margin-left:20px;
+    padding: 10px;
+}
+
+.subtitle h3{
+    display: inline-block;
+    padding: 30px 5px 20px;
+
+}
+ /* ul li style */
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+/* lists done or undone */
+.true:before{
+    content: "\2713";
+    color: green;
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+
+.false:before{
+    content: "\2A02";
+    color: red;
+    font-size: 1.3em;
+    margin-right: 10px;
 
 
+}
 
 
+/* labels */
+
+.editorial-label{
+    background-color:#44abea ;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.goals-label{
+    background-color:#9c72e4 ;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.recruiting-label{
+    background-color: #64c0a9;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.mobile-label{
+    background-color: #f29e33;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.website-label{
+    background-color: #d863a1;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.sales-label{
+    background-color: #afc828;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
 
 /* background */
 body{
